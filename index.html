@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script> -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+	<script type="text/javascript" src="dynamix/libs/forge.min.js"></script>
+	<script type="text/javascript" src="dynamix/dynamix.js"></script>
+	<script type="text/javascript" src="dynamix/dynamixUtils.js"></script>    
+	<script src='dynamix_interface.js'></script>
+	<script src='myo_interface.js'></script>
+	<title>Space Shooter</title>
+</head>
+
+<body>
+<div id="progressBar">
+	<div><progress></progress></div>
+</div>
+</body>
+
+<script type="text/javascript" src="TweenMax.min.js"></script>
+<script type="text/javascript" src="three/three/build/three.js"></script>
+<script src="js/effects/StereoEffect.js"></script>
+<script src="js/controls/DeviceOrientationControls.js"></script>
+<script src="js/controls/OrbitControls.js"></script>
+<script src="js/libs/stats.min.js"></script>
+<script type="text/javascript" src="objects.js"></script>
+<script type="text/javascript" src="object_creators.js"></script>
+<script src='scene.js'></script>
+
+<script type="text/javascript">
+	bindDynamix();
+</script>
+
+</html>
+

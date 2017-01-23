@@ -1,0 +1,15 @@
+.red_cell{
+	background-color: red;
+}
+
+div#progressBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
